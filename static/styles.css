@@ -1,0 +1,88 @@
+nav {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 2rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.main {
+    background-image: url('368845.jpg'); /* replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: calc(100vh - 4rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.form-container {
+    background: rgba(255, 255, 255, 0.2); /* semi-transparent */
+    backdrop-filter: blur(10px);          /* blur effect */
+    -webkit-backdrop-filter: blur(10px);  /* for Safari */
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+form label {
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+form input {
+    height: 5vh; 
+    margin-bottom: 1rem;
+}
+
+form button {
+    height: 5vh; 
+    margin-top: 1rem; 
+    background-color: aqua;
+    border-radius: 2px 2px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.info-card {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 250px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    color: #000;
+    text-align: left;
+}
+
+.info-card h4 {
+    margin-bottom: 0.5rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.info-card ul {
+    padding-left: 1rem;
+}
+
+.info-card li {
+    list-style-type: disc;
+}
